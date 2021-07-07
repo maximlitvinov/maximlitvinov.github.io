@@ -1,4 +1,32 @@
 const langArr = {
+    "nav-link-home":{
+        "ru": "Главная",
+        "en": "Home",
+        "de": "Startseite",
+        "jp": "ホーム",
+        "fr": "Accueil",
+    },
+    "nav-link-about-me":{
+        "ru": "Обо мне",
+        "en": "About me",
+        "de": "Über mich",
+        "jp": "私について",
+        "fr": "A propos de moi",
+    },
+    "nav-link-latest-projects":{
+        "ru": "Последние проекты",
+        "en": "Latest Projects",
+        "de": "neueste Projekte",
+        "jp": "最新プロジェクト",
+        "fr": "Último Projecto",
+    },
+    "nav-link-contact":{
+        "ru": "Связаться со мной",
+        "en": "Contact me",
+        "de": "Kontaktieren Sie mich",
+        "jp": "お問い合わせ",
+        "fr": "Contactez-moi",
+    },
     "header-title": {
         "ru": "Разработчик, влюбленный в разработку и создание цифрового продукта",
         "en": "Developer in love with developing and creating digital product",
@@ -13,5 +41,144 @@ const langArr = {
         "jp": "マキシム・リトビノフ",
         "fr": "Maxim Litvinov",
     },
+   "header-button":{
+    "ru": "Прокрутите вниз",
+    "en": "Scroll Down",
+    "de": "Nach unten blättern",
+    "jp": "スクロールダウン",
+    "fr": "Défilement vers le bas",
+   },
+   
+   "sec-main-my-services":{
+    "ru": "Привет! Меня зовут Максим Литвинов, я разработчик. Буду рад помочь товарищам по команде в их рабочих процессах. Если вам нужна помощь, просто напишите мне ;)",
+    "en": "Hey! My name is Maxim Litvinov, I am developer. I'm glad to help teammates their work processes. If you need help just text me ;)",
+    "de": "Hallo! Mein Name ist Maxim Litvinov, ich bin Entwickler. Ich bin froh, Teamkollegen ihre Arbeitsprozesse zu helfen. Wenn Sie Hilfe brauchen, schreiben Sie mir einfach eine SMS ;)",
+    "jp": "こんにちは！私の名前はマキシム・リトヴィノフ、私は開発者です。チームメイトのワークプロセスをお手伝いできることを嬉しく思います。もし助けが必要なら、私にテキストを送ってください ;)",
+    "fr": "Salut ! Mon nom est Maxim Litvinov, je suis développeur. Je suis heureux d'aider les coéquipiers leurs processus de travail. Si vous avez besoin d'aide, envoyez-moi un SMS ;)",
+   },
+//Section skills
+   "title-skills":{
+    "ru": "Мои Навыки",
+    "en": "My Skills",
+    "de": "Meine Fähigkeiten",
+    "jp": "私のスキル",
+    "fr": "Mes compétences",
+   },
+//Section Example Projects
+   "sec-examples-latest-projects":{
+    "ru": "Последние проекты",
+    "en": "Latest Projects",
+    "de": "neueste Projekte",
+    "jp": "最新プロジェクト",
+    "fr": "Último Projecto",
+   },
+
+   "projects-spa":{
+    "ru": "Одностраничное приложение",
+    "en": "Single Page Application",
+    "de": "Einseitige Anwendung",
+    "jp": "シングルページアプリ",
+    "fr": "Application à page unique",
+   },
+   "projects-landing":{
+    "ru": "Лэндинг",
+    "en": "Landing Page",
+    "de": "Landing-Seite",
+    "jp": "ランディングページ",
+    "fr": "Page d'atterrissage",
+   },
+   "projects-online-store":{
+    "ru": "Онлайн Магазин",
+    "en": "Online Store",
+    "de": "Online-Geschäft",
+    "jp": "オンラインストア",
+    "fr": "Magasin en ligne",
+   },
+   //About me section
+   "sec-about-me-title":{
+    "ru": "Обо мне",
+    "en": "About me",
+    "de": "Über mich",
+    "jp": "私について",
+    "fr": "A propos de moi",
+   },
+   "sec-about-me-pretitle":{
+    "ru": "Немного обо мне",
+    "en": "Little bit about me",
+    "de": "Ein wenig über mich",
+    "jp": "私のことを少しだけ",
+    "fr": "Un peu de moi",
+   },
+   "about-me-text":{
+    "ru": "Моя работа с компьютером началась в 2008 году, с тех пор когда мне купили мой первый компьютер. В то время я был заядлым геймером, но меня тогда интересовали не только игры, но и то зачем я наблюдал. Мне было интересно как все это устроено в компьютере, и как это работает. Спустя какое-то время я быстро стал компьютерным мастером для родных, друзей и знакомых. В 2017-2018 г. я познакомился с веб-разработкой, её языками и инструментами: HTML, CSS, JS, jQuery, Bootstrap, адаптивная верстка. Интересуюсь и продолжаю изучать по сей день.После окончания школы в 2018 г. мой путь был уже определен. Я поступил в университет Северо-Кавказского Филиала Московского Технического Университета Связи и Информатики (СКФ МТУСИ) на направление  Инфокоммуникационные системы и сети связи кафедра, факультет. С 2018-2022 являюсь студентом этого университета, продолжаю учиться, исследовать и изучать." ,
+    "en": "I have been working with technology since I got my first PC in 2007. While I was an avid gamer I was never interested only in games, I always liked looking behind what I saw to see how it all worked. I quickly became the 'computer guy' to my family and friends and today I am a developer. And I like it! While I learned programming language in high school my path became clear. In 2018 I became a student of North Caucasus Branch Moscow Technical University of Communication and Information Technology. And now I'm learning how to become a good and useful teammate for teams.",
+    "de": "Ich arbeite mit Technik, seit ich 2007 meinen ersten PC bekam. Obwohl ich ein begeisterter Gamer war, habe ich mich nie nur für Spiele interessiert. Ich habe immer gerne hinter das geschaut, was ich gesehen habe, um zu sehen, wie das alles funktioniert. Für meine Familie und Freunde wurde ich schnell der 'Computer-Typ' und heute bin ich Entwickler. Und ich mag es! Während ich in der High School die Programmiersprache lernte, wurde mein Weg klar. Im Jahr 2018 wurde ich Student der Nordkaukasischen Abteilung der Moskauer Technischen Universität für Kommunikation und Informationstechnologie. Und jetzt lerne ich, wie man ein guter und nützlicher Teamkollege für Teams wird.",
+    "jp": "2007年に初めてPCを手にして以来、テクノロジーに関わる仕事をしてきました。私は熱心なゲーマーでしたが、ゲームだけに興味を持っていたわけではありませんでした。すぐに家族や友人の間で「コンピュータ・ガイ」と呼ばれるようになり、今では開発者として活躍しています。そして、今では開発者として活躍しています。高校でプログラミング言語を学んでいる間に、私の進路は明確になりました。2018年、私は通信・情報技術の北コーカサス支部モスクワ工科大学の学生になりました。そして今、私はチームのための優秀で有用なチームメイトになる方法を学んでいます。",
+    "fr": "Je travaille avec la technologie depuis que j'ai eu mon premier PC en 2007. Bien que je sois un joueur passionné, je ne me suis jamais intéressé uniquement aux jeux. J'ai toujours aimé regarder derrière ce que je voyais pour voir comment tout cela fonctionnait. Je suis rapidement devenu le gars de l'informatique pour ma famille et mes amis et aujourd'hui, je suis développeur. Et j'aime ça ! Alors que j'apprenais le langage de programmation au lycée, mon chemin s'est précisé. En 2018, je suis devenu un étudiant de l Université technique de Moscou de la branche du Caucase du Nord pour les technologies de la communication et de l information. Et maintenant, j apprends comment devenir un bon coéquipier utile pour les équipes. ",
+   },
+   "social-links":{
+    "ru": "Меня можно найти тут:",
+    "en": "I am here:",
+    "de": "Ich bin hier:",
+    "jp": "私はここにいます:",
+    "fr": "Je suis là:", 
+   },
+   //Section Contact me
+   "contact-me":{
+    "ru": "Связаться со мной",
+    "en": "Contact me",
+    "de": "Kontaktieren Sie mich",
+    "jp": "お問い合わせ",
+    "fr": "Contactez-moi",
+   },
+   "contact-me":{
+    "ru": "Связаться со мной",
+    "en": "Contact me",
+    "de": "Kontaktieren Sie mich",
+    "jp": "お問い合わせ",
+    "fr": "Contactez-moi",
+   },
+   "contact-form-name":{
+    "ru": "Ваше имя",
+    "en": "Your Name",
+    "de": "Ihr Name",
+    "jp": "お名前",
+    "fr": "Votre nom",
+   },
+   "contact-form-email":{
+    "ru": "Ваша Электронная почта",
+    "en": "Your Email",
+    "de": "Ihre E-Mail",
+    "jp": "あなたのEメール",
+    "fr": "Votre adresse électronique",
+   },
+   "contact-form-subject":{
+    "ru": "Тема",
+    "en": "Subject",
+    "de": "Thema",
+    "jp": "件名",
+    "fr": "Sujet",
+   },
+   "contact-form-message":{
+    "ru": "Ваше сообщение",
+    "en": "Your Message",
+    "de": "Ihre Nachricht",
+    "jp": "あなたのメッセージ",
+    "fr": "Votre message",
+   },
+   "contact-form-message":{
+    "ru": "Ваше сообщение",
+    "en": "Your Message",
+    "de": "Ihre Nachricht",
+    "jp": "あなたのメッセージ",
+    "fr": "Votre message",
+   },
+   "contact-form-btn":{
+    "ru": "Отправить",
+    "en": "Send",
+    "de": "Senden",
+    "jp": "送信",
+    "fr": "Envoyer",
+   },
    
 }
