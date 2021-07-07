@@ -1,8 +1,5 @@
-const maxImg = document.querySelector('.right-panel img');
 const select = document.querySelector('select');
 const allLang = ['en', 'ru', 'de', 'jp', 'fr'];
-
-document.querySelectorAll('.left-panel img').forEach(item => item.onmouseenter = (event) => maxImg.src = event.target.src);
 
 select.addEventListener('change', changeURLLanguage);
 
@@ -22,8 +19,8 @@ function changeLanguage() {
         location.reload();
     }
     select.value = hash;
-    document.querySelector('title').innerHTML = langArr['unit'][hash];
-    // document.querySelector('.lng-chip').innerHTML = langArr['chip'][hash];
+    document.querySelector('title').innerHTML = langArr['my-name'][hash];
+    // document.querySelector('.lng-chip').innerHTML = langArr['my-name'][hash];
     for (let key in langArr) {
         let elem = document.querySelector('.lng-' + key);
         if (elem) {
